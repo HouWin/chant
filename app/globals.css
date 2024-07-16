@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+.bg1 { background-image: url('http://img.houm.cn/bg1.webp'); background-size: cover; }
+.bg2 { background-image: url('http://img.houm.cn/bg2.webp'); background-size: cover; }
+.bg5 { background-image: url('http://img.houm.cn/bg5.webp'); background-size: cover; }
+.bg6 { background-image: url('http://img.houm.cn/bg6.webp'); background-size: cover; }
+.bg7 { background-image: url('http://img.houm.cn/bg7.webp'); background-size: cover; }
+.bg8 { background-image: url('http://img.houm.cn/bg8.webp'); background-size: cover; }
+.bg9 { background-image: url('http://img.houm.cn/bg9.webp'); background-size: cover; }
+.bg10 { background-image: url('http://img.houm.cn/bg10.webp'); background-size: cover; }
+.bg11 { background-image: url('http://img.houm.cn/bg11.webp'); background-size: cover; }
+.bg14 { background-image: url('http://img.houm.cn/bg14.webp'); background-size: cover; }
+.bg15 { background-image: url('http://img.houm.cn/bg15.webp'); background-size: cover; }
+.bg16 { background-image: url('http://img.houm.cn/bg16.webp'); background-size: cover; }
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
