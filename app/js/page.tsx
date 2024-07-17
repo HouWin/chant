@@ -18295,7 +18295,7 @@ const App = () => {
     console.log('Component instance ID:', Math.random());
 
     jiaoben();
-  }, []);
+  }, [jiaoben]);
 
   return (
     <div>
